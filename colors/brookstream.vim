@@ -1,7 +1,11 @@
 "--------------------------------------------------------------------
 " Name Of File: brookstream.vim.
-"  Description: Gvim colorscheme, works best with version    Maintainer: Peter Backstrom.
-"  Last Change: Friday, Mars 7, 2003.
+" Description: Gvim colorscheme, works best with version 6.1 GUI .
+" Maintainer: Peter Bäckström.
+" Creator: Peter Bäckström.
+" URL: http://www.brookstream.org (Swedish).
+" Credits: Inspiration from the darkdot scheme.
+" Last Change: Friday, April 13, 2003.
 " Installation: Drop this file in your $VIMRUNTIME/colors/ directory.
 "--------------------------------------------------------------------
 
@@ -40,15 +44,19 @@ hi WarningMsg								guifg=#ffff00
 
 hi Comment									guifg=#696969
 hi Constant									guifg=#00aaaa
-hi Identifier								guifg=#00bfff
-hi Statement 								guifg=#44ffff
-hi PreProc									guifg=#1e90ff
+hi Identifier								guifg=#00e5ee
+hi Statement 								guifg=#00ffff
+hi PreProc									guifg=#8470ff
 hi Type											guifg=#ffffff
-hi Special		gui=none			guifg=#3cb371
+hi Special		gui=none			guifg=#87cefa
 hi Underlined	gui=bold		  guifg=#4444ff
 hi Ignore		 								guifg=#444444
 hi Error			guibg=#000000	guifg=#bb0000
 hi Todo				guibg=#aa0006	guifg=#fff300
+hi Operator 	gui=none 			guifg=#00bfff
+hi Function 	 			        guifg=#1e90ff
+hi String 		gui=None 			guifg=#4682b4
+hi Boolean									guifg=#9bcd9b
 
 "hi link Character Constant
 "hi link Number    Constant
